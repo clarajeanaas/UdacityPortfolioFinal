@@ -1,0 +1,49 @@
+/*Navigation Bar*/
+@media only screen and (max-width: 1000px) {
+	li {display: inline;}
+	ul {padding: 0; text-align: center;}
+	ul li {font-size: 50px; padding-left: 60px; padding-right: 60px;}
+	nav {height: auto;}
+	aside {margin: 0em; width: 100%;}	
+}
+@media only screen and (min-width: 650px) and (max-width: 875px) {
+	ul li {padding-right: 25px; padding-left: 25px;}
+}
+@media only screen and (max-width: 475px) {
+	ul li {padding-left: 100px; padding-right: 100px;}
+}
+
+/*Main Photo*/
+@media only screen and (max-width: 1000px) {
+	main {width: 100%; margin: 0; margin-top: 1em; height: auto;}
+}
+
+/*Brand*/
+@media only screen and (min-width: 651px) and (max-width: 1000px) {
+	h1 {font-size: 90px;}
+	h2 {font-size: 40px;}
+	.Brand {padding-top: .5;}
+}
+@media only screen and (min-width: 425px) and (max-width: 651px) {
+	.logo img {width: 170px; margin-left: 0;}
+	h1 {font-size: 60px;}
+	h2 {font-size: 30px;}
+}
+@media only screen and (max-width: 424px) {
+	.brand {width: 100%; padding-right: 0; text-align: center; margin-bottom: 2em;}
+	.logo img {display: none;}
+}
+
+/*Features 975px*/
+@media only screen and (min-width: 975px) {
+	.featured-bar {font-size: 50px;}
+}
+/*Features 750px*/
+@media only screen and (max-width: 500px) {
+	figcaption {font-size: 30px;}
+}
+
+
+
+
+650 and 375
